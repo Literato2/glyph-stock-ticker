@@ -1,3 +1,6 @@
+> Repositorio migrado desde `github.com/literato1987`, cuenta anterior del mismo autor,
+> sin acceso desde agosto de 2026. El historial de commits se conserva íntegro.
+
 # Glyph Stock Ticker
 
 Glyph Toy for the **Nothing Phone (3)** that shows live stock and crypto prices on the 25×25 Glyph Matrix.
