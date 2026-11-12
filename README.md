@@ -17,7 +17,7 @@ Built with the [Glyph Matrix Developer Kit](https://github.com/Nothing-Developer
 
 Long-press cycles symbol: **TSLA** → **SPCX** (SpaceX) → **NVDA** → **BTC**.
 
-> **TSLA, BTC and NVDA are examples**, not a fixed list. You can add your own tickers (see below). Previews use the [official Phone (3) LED allocation](https://github.com/Nothing-Developer-Programme/GlyphMatrix-Developer-Kit/blob/main/image/23111_25111_LED_allocation.svg) via [glyph-matrix-simulator](https://github.com/literato1987/glyph-matrix-simulator). BTC example uses compact `87k` in the README — full integer BTC prices are wider on the matrix.
+> **TSLA, BTC and NVDA are examples**, not a fixed list. You can add your own tickers (see below). Previews use the [official Phone (3) LED allocation](https://github.com/Nothing-Developer-Programme/GlyphMatrix-Developer-Kit/blob/main/image/23111_25111_LED_allocation.svg) via [glyph-matrix-simulator](https://github.com/Literato2/glyph-matrix-simulator). BTC example uses compact `87k` in the README — full integer BTC prices are wider on the matrix.
 
 ## Features
 
@@ -63,7 +63,7 @@ Look up the Yahoo symbol on finance.yahoo.com (URL slug after `/quote/`).
 
 ### 2. Check it fits on the matrix
 
-The 25×25 grid is tiny. Before building, preview with [glyph-matrix-simulator](https://github.com/literato1987/glyph-matrix-simulator):
+The 25×25 grid is tiny. Before building, preview with [glyph-matrix-simulator](https://github.com/Literato2/glyph-matrix-simulator):
 
 ```bash
 pip install Pillow
@@ -76,7 +76,7 @@ If the symbol is too wide, shorten the display (e.g. `BTC` instead of `BITCOIN`,
 
 Symbols are drawn with a custom 3×5 pixel font in `MatrixPixelFont.kt`. If a letter is missing, it is **silently skipped** — you may see only part of the word (e.g. `T` instead of `BTC`).
 
-Add glyphs to `MatrixPixelFont.kt` and mirror them in [glyph-matrix-simulator](https://github.com/literato1987/glyph-matrix-simulator) `preview.py` → `GLYPHS`.
+Add glyphs to `MatrixPixelFont.kt` and mirror them in [glyph-matrix-simulator](https://github.com/Literato2/glyph-matrix-simulator) `preview.py` → `GLYPHS`.
 
 **Letter traps on a 3×5 font:**
 - `N` needs a **diagonal** — a filled centre (`###`) reads as `M`
@@ -125,6 +125,6 @@ MIT — see [LICENSE](LICENSE). Based on Nothing's Example Project; stock-ticker
 
 ## Related
 
-- [glyph-matrix-simulator](https://github.com/literato1987/glyph-matrix-simulator) — preview layouts with the official 621-LED map
+- [glyph-matrix-simulator](https://github.com/Literato2/glyph-matrix-simulator) — preview layouts with the official 621-LED map
 - [GlyphMatrix Developer Kit](https://github.com/Nothing-Developer-Programme/GlyphMatrix-Developer-Kit)
 - [GlyphMatrixEditor](https://github.com/pauwma/GlyphMatrixEditor) — full web editor for matrix art and animation
