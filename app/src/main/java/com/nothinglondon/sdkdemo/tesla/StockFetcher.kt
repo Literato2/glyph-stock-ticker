@@ -19,8 +19,9 @@ data class StockQuote(
 
 enum class StockAsset(val displaySymbol: String, val yahooSymbol: String) {
     TESLA("TSLA", "TSLA"),
-    BITCOIN("BTC", "BTC-USD"),
+    SPACEX("SPCX", "SPCX"),
     NVIDIA("NVDA", "NVDA"),
+    BITCOIN("BTC", "BTC-USD"),
     ;
 
     fun next(): StockAsset = entries[(ordinal + 1) % entries.size]

@@ -15,7 +15,7 @@ Built with the [Glyph Matrix Developer Kit](https://github.com/Nothing-Developer
   <img src="docs/preview-github.png?v=2" alt="TSLA, BTC, and NVDA on the Glyph Matrix" width="640">
 </p>
 
-Long-press cycles symbol: **TSLA** → **BTC** → **NVDA**.
+Long-press cycles symbol: **TSLA** → **SPCX** (SpaceX) → **NVDA** → **BTC**.
 
 > **TSLA, BTC and NVDA are examples**, not a fixed list. You can add your own tickers (see below). Previews use the [official Phone (3) LED allocation](https://github.com/Nothing-Developer-Programme/GlyphMatrix-Developer-Kit/blob/main/image/23111_25111_LED_allocation.svg) via [glyph-matrix-simulator](https://github.com/literato1987/glyph-matrix-simulator). BTC example uses compact `87k` in the README — full integer BTC prices are wider on the matrix.
 
